@@ -5,6 +5,7 @@
         <label for="hero-name">Hero name:  </label>
         <!-- property two way bind -->
         <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+        <button type="button" (click)="save()">save</button>
     </div>
     <button type="button" (click)="goBack()">go back</button>
 </div>
